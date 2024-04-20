@@ -16,7 +16,7 @@ describe('DelekHomes project', () => {
       //1) Pass name or value of dropdown - for contains
       //2) Verify if it was selected '4+': using should('have. ',')
       cy.get('[id="\\:r2\\:"]').click();
-      cy.contains('4+').click().should('have.text', '4+');
+      cy.contains('3+').click().should('have.text', '3+');
 
       //Lets select "State":
       cy.get('[id="\\:r3\\:"]').click();
