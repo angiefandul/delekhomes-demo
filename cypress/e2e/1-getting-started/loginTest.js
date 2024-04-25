@@ -7,7 +7,7 @@ describe('Login', () => {
         cy.contains('Login').click();
         cy.get('input[name="email"]').type('anzhelaf@yahoo.com')
         cy.get('input[name="password"]').type('12345678')
-        cy.contains('Login').click()
+        cy.contains('Login').click();
 
         
 
