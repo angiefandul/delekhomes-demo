@@ -14,7 +14,7 @@ describe('Registration', () => {
 
         //check checkbox:
         cy.get('input[type="checkbox"]').check().should('be.checked')
-        cy.get('input[type="checkbox"]').uncheck().should('not.be.checked')
+        cy.get('input[type="checkbox"]').uncheck().should('not.be.checked');
         
         cy.get('button[type="submit"]').click();
 
